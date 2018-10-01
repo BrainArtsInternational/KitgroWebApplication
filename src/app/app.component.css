@@ -1,0 +1,11 @@
+.startpage{
+  height: 107vh;
+  text-align:center;
+  margin-top: -7vh;
+  background-size: cover;
+}
+
+.startpage h1{
+  padding-top: 10vh;
+  font-size: 10vh;
+}
