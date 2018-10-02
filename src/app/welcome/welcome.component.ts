@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router, NavigationEnd } from '@angular/router';
 
 @Component({
   selector: 'app-welcome',
@@ -7,9 +8,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WelcomeComponent implements OnInit {
 
-  constructor() { }
+  constructor( private router: Router) { }
 
   ngOnInit() {
+  }
+
+  resturantBtn(){
+    this.router.navigateByUrl("home");
+    console.log("resturant clicked");
+  }
+
+  groceryBtn(){
+    this.router.navigateByUrl("home");
+    console.log("grocery clicked");
   }
 
 }
