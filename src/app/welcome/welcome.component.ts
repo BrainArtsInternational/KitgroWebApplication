@@ -8,19 +8,21 @@ import { Router, NavigationEnd } from '@angular/router';
 })
 export class WelcomeComponent implements OnInit {
 
+  title = 'Kitgro';
+
   constructor( private router: Router) { }
 
   ngOnInit() {
   }
 
-  resturantBtn(){
-    this.router.navigateByUrl("home");
-    console.log("resturant clicked");
-  }
-
-  groceryBtn(){
-    this.router.navigateByUrl("home");
-    console.log("grocery clicked");
-  }
+  // resturantBtn(){
+  //   this.router.navigateByUrl("home");
+  //   console.log("resturant clicked");
+  // }
+  //
+  // groceryBtn(){
+  //   this.router.navigateByUrl("home");
+  //   console.log("grocery clicked");
+  // }
 
 }

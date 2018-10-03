@@ -1,0 +1,41 @@
+body {
+  background: url('http://www.publicdomainpictures.net/pictures/50000/velka/flower-meadow.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 12%;
+}
+
+h1{
+  margin-top: -8vh;
+}
+
+.container{
+  align-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.resturant-grocery {
+  height: 45vh;
+  margin-top: 5vh;
+}
+.resturant{
+  margin-left: 15%;
+  margin-right: 1vh;
+  background-size: cover;
+  border: groove;
+}
+.grocery{
+  margin-left: 1vh;
+  background-size: cover;
+  border: groove;
+}
+
+.link_resturant{
+  margin-top: 20vh;
+}
+.link_grocery{
+  margin-top: 20vh;
+}
