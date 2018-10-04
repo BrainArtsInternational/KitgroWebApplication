@@ -4,38 +4,52 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  padding: 12%;
+  height: 100vh;
 }
 
 h1{
-  margin-top: -8vh;
+  padding-top: 8vh;
 }
 
 .container{
-  align-content: center;
-  align-items: center;
   text-align: center;
 }
 
-.resturant-grocery {
-  height: 45vh;
-  margin-top: 5vh;
-}
-.resturant{
-  margin-left: 15%;
-  margin-right: 1vh;
-  background-size: cover;
-  border: groove;
-}
-.grocery{
-  margin-left: 1vh;
-  background-size: cover;
+.resturant-grocery{
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden;
+  margin-bottom: 8px;
   border: groove;
 }
 
-.link_resturant{
-  margin-top: 20vh;
+.options{
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: all .5s;
+  height: 35vh;
 }
-.link_grocery{
-  margin-top: 20vh;
+
+.options:hover{
+  transform: scale(1.1);
+}
+
+.txt_cont{
+  text-align: center;
+  position: absolute;
+  padding: 10px 2vw;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .75);
+  font-family: AvenirNextLTPro, "Open Sans", serif;
+}
+
+.center {
+  margin: auto;
+  width: 100%;
+  padding: 20px;
 }

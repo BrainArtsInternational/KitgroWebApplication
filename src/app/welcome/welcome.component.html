@@ -12,24 +12,22 @@
 <!--</div>-->
 
 <body>
-<div class="container">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <div class="col-sm">
-    <div class="row resturant-grocery">
-        <div class="col-sm-6 resturant" style="max-width: 35%;background-image: url('https://vectortoons.com/wp-content/uploads/2017/08/vectortoons-scene-012.jpg')">
-          <a [routerLink]="['home']">
-            <button type="button" class="btn btn-default link_resturant">Resturants</button>
-          </a>
+  <div class="container">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+      <div class="col-sm-6 center">
+        <div class="row">
+        <div class="col-sm-6 resturant-grocery">
+          <div class="options" style="background-image: url('https://vectortoons.com/wp-content/uploads/2017/08/vectortoons-scene-012.jpg');"></div>
+          <a [routerLink]="['home']"><div class="txt_cont">Resturants</div></a>
         </div>
-
-        <div class="col-sm-6 grocery" style="max-width: 35%;background-image: url('https://vectortoons.com/wp-content/uploads/2015/04/a-supermarket-aisle-with-random-goods-on-shelves.jpg')">
-          <a [routerLink]="['home']">
-            <button type="button" class="btn btn-default link_grocery">Home Needs & Grocery</button>
-          </a>
+        <div class="col-sm-6 resturant-grocery">
+          <div class="options" style="background-image: url('https://vectortoons.com/wp-content/uploads/2015/04/a-supermarket-aisle-with-random-goods-on-shelves.jpg');"></div>
+          <a [routerLink]="['home']"><div class="txt_cont">Home Needs & Grocery</div></a>
         </div>
+      </div>
     </div>
   </div>
-</div>
+
 </body>
